@@ -2,12 +2,12 @@ Feature: Try with all the main menu options
 
   @MainMenu
   Scenario Outline: Click on main menu buttons
-    Given I navigate to "www.etniadigital.com"
-    And I click on "<MenuOption>"
-    Then I assert that the page goes to the correct section because i see the proper "<span>"
+    Given I navigating on "www.etniadigital.com"
+    When  I click on <mainMenuOption>
+    Then I assert that the page goes to the correct "<span>"
     Examples:
-      | menuOption        | Span                     |
-      | nosotrosButton    | Sobre Nosotros           |
-      | portfolioButton   | Algunos De               |
-      | serviciosButton   | Servivios                |
-      | contactoButton    | Conectá con tu comunidad |
+      | mainMenuOption    | span                 |
+      | Nosotros          | spanSobreNosotros    |
+      | Portfolio         | spanAlgunosDe        |
+      | Servicios         | spanServicios        |
+      | Contacto          | spanConectaComunidad |
