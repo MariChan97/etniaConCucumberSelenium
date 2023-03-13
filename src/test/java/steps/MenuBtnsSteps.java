@@ -11,22 +11,17 @@ import pages.MenuBtnsPage;
 public class MenuBtnsSteps {
 
     MenuBtnsPage menuBtnsPage = new MenuBtnsPage(); 
-        @Given("I navigating on {string}")
+        @Given("^I navigate to (.*) {string}$")
          public void iNavigateTo(String url) {
          menuBtnsPage.navigateToEtniaDigital(url);
         }     
       
-       @And("click on button(.*)")
+       @And("^click on button(.*){string}$")
        public void iClickOnMainMenuOption(String mainMenuOption){
-        menuBtnsPage.clickOnNosOption(mainMenuOption);
-        menuBtnsPage.clickOnPortfolioOption(mainMenuOption);
-        menuBtnsPage.clickOnServiciosButton(mainMenuOption);
-        menuBtnsPage.clickOnContactoButton(mainMenuOption);
+        menuBtnsPage.iClickOnMenuOption(mainMenuOption);
        }
           
-    
-
-       @Then("I assert that the page goes to the proper section{string}")
+       @Then("^I assert that the page goes to the proper section(.*){string}$")
         public void IassertThePageGoesToProperSpan(String span) {
         String Span = menuBtnsPage.spanSobreNosotros(span);
         Assert.assertEquals("Sobre Nosotros", Span);

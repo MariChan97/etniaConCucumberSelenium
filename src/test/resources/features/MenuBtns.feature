@@ -4,10 +4,10 @@ Feature: Try with all the main menu options
   Scenario Outline: Click on main menu buttons
     Given I navigating on "www.etniadigital.com"
     When  I click on <mainMenuOption>
-    Then I assert that the page goes to the correct "<span>"
+    Then I assert the page goes to the correct "<span>"
     Examples:
-      | mainMenuOption    | span                 |
-      | Nosotros          | spanSobreNosotros    |
-      | Portfolio         | spanAlgunosDe        |
-      | Servicios         | spanServicios        |
-      | Contacto          | spanConectaComunidad |
+ | mainMenuOption    | Span                     |
+ | nosotrosButton    | Sobre Nosotros           |
+ | portfolioButton   | Algunos De               |
+ | serviciosButton   | Servivios                |
+ | contactoButton    | Conectá con tu comunidad |
