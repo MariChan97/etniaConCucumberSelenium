@@ -22,7 +22,7 @@ public class BasePage {
 
     // bloque estatico que se va a ejecutar al comienzo
     static {
-        System.setProperty("webdriver.chrome.driver", "C:\\Marianella\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "./chromedriver/chromedriver.exe");
         ChromeOptions chromeOptions = new ChromeOptions();
         driver = new ChromeDriver(chromeOptions);
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -144,13 +144,16 @@ public class BasePage {
         return Find(locator).isSelected();
     }
 
-    public boolean elementIsEnabled(String locator){
+     public boolean elementIsEnabled(String locator){
         return Find(locator).isEnabled();
-    }
-
+     }
+        
     // ******************* LISTS ********************
+    /*public List<WebElement> bringMeAllElements(List<WebElement>){
+        return driver.findElements(By.className());
+    }/* */
+
     public List<WebElement> bringMeAllElements(String locator){
         return driver.findElements(By.className(locator));
     }
-
 }
