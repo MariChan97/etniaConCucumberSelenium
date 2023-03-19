@@ -27,16 +27,17 @@ public class MenuBtnsPage extends BasePage{
     public void navigateToEtniaDigital(String url) {
         navigateTo("https://" + url);
     }
-      public void iClickOnMenuOption(String mainMenuOption) {
+      public WebElement iClickOnMenuOption(String mainMenuOption) {
         List<WebElement> menuOption = bringMeAllElements(mainMenu); 
         List<WebElement> btnFromMenu = new ArrayList<WebElement>();
         for (WebElement e : menuOption) {
             btnFromMenu.add(e);
         }
-        WebElement Nosotros = btnFromMenu.get(1);
-        WebElement Portfolio = btnFromMenu.get(2);
-        WebElement Servicio = btnFromMenu.get(3);
-        WebElement Contacto = btnFromMenu.get(4);
+        WebElement nosotrosButton = btnFromMenu.get(1);
+        WebElement portfolioButton = btnFromMenu.get(2);
+        WebElement servicioButton = btnFromMenu.get(3);
+        WebElement contactoButton = btnFromMenu.get(4);
+        return null;
     }
     
 
