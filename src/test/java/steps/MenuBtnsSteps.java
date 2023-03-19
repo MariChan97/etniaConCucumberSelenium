@@ -11,7 +11,7 @@ import pages.MenuBtnsPage;
 public class MenuBtnsSteps {
 
     MenuBtnsPage menuBtnsPage = new MenuBtnsPage(); 
-        @Given("^I navigate to (.*) {string}$")
+        @Given("^I navigating on (.*) {string}$")
          public void iNavigateTo(String url) {
          menuBtnsPage.navigateToEtniaDigital(url);
         }     

@@ -1,0 +1,128 @@
+[33mcommit 2fde66163d2db9fc59702de6acc6ba1e99fec081[m[33m ([m[1;36mHEAD -> [m[1;32metniadigital2.2[m[33m)[m
+Author: MariChan97 <mari.pazlarc09@gmail.com>
+Date:   Mon Mar 13 17:01:22 2023 -0300
+
+    nuevos matches en los steps
+
+[33mcommit bd0b1f6e9e02a746d4fe91fee805e98b5eee5dcd[m[33m ([m[1;32mentiadigital2.0[m[33m)[m
+Author: MariChan97 <mari.pazlarc09@gmail.com>
+Date:   Sat Mar 11 12:39:08 2023 -0300
+
+    testcases etnia 2.0
+
+[33mcommit ac844e7a990a3cf971514889020a0997d0c8911b[m[33m ([m[1;32mmain[m[33m, [m[1;32metniadigital[m[33m)[m
+Author: MariChan97 <mari.pazlarc09@gmail.com>
+Date:   Thu Mar 9 21:19:18 2023 -0300
+
+    testcase etnia
+
+[33mcommit 446a5ca24e14a0001778fb032845a2e698cd252a[m
+Merge: bf66e4b 92d8e8f
+Author: GERMAN LARCHER <52580148+german1582@users.noreply.github.com>
+Date:   Mon Dec 5 15:33:18 2022 -0300
+
+    Merge pull request #5 from german1582/last-class-challenge
+    
+    challenge of last class
+
+[33mcommit 92d8e8fac3cdaf25d2dfa6f1fdf6234df9318755[m[33m ([m[1;31morigin/last-class-challenge[m[33m)[m
+Author: Germán LARCHER <german.larcher@naranja.com>
+Date:   Mon Dec 5 15:28:40 2022 -0300
+
+    challenge of last class
+
+[33mcommit bf66e4bf1ea541a949b4d439437eb4b9d62b0a7e[m
+Merge: 88f2867 40f9ee8
+Author: GERMAN LARCHER <52580148+german1582@users.noreply.github.com>
+Date:   Fri Nov 25 15:40:55 2022 -0300
+
+    Merge pull request #4 from german1582/since-53-reports
+    
+    added 3 reports to show results
+
+[33mcommit 40f9ee81b101d91109286629a6724bb8ab8ea31b[m[33m ([m[1;31morigin/since-53-reports[m[33m)[m
+Author: Germán LARCHER <german.larcher@naranja.com>
+Date:   Fri Nov 25 15:39:53 2022 -0300
+
+    added 3 reports to show results
+
+[33mcommit 88f2867e3451adf123aed350ae4616c1b4d20c48[m
+Merge: 4538ad7 7e8f70c
+Author: GERMAN LARCHER <52580148+german1582@users.noreply.github.com>
+Date:   Fri Nov 11 08:49:19 2022 -0300
+
+    Merge pull request #3 from german1582/since-46-cucumber
+    
+    untiÃl class 52-cucumber-best practices
+
+[33mcommit 7e8f70ce3180ed3ebecbc94444b61751a2d08a1c[m[33m ([m[1;31morigin/since-46-cucumber[m[33m)[m
+Author: Germán LARCHER <german.larcher@naranja.com>
+Date:   Fri Nov 11 08:48:21 2022 -0300
+
+    untiÃl class 52-cucumber-best practices
+
+[33mcommit 4538ad7233b7c0a164d428da092ec2896c651f80[m
+Author: Germán LARCHER <german.larcher@naranja.com>
+Date:   Thu Nov 10 15:27:24 2022 -0300
+
+    class 45 - runner file - quit driver
+
+[33mcommit b27f3379659d5a418fc17d075a1255da1aff1e86[m
+Merge: eef8c23 dbc2ab4
+Author: GERMAN LARCHER <52580148+german1582@users.noreply.github.com>
+Date:   Thu Nov 10 15:07:16 2022 -0300
+
+    Merge pull request #2 from german1582/since-41-lists
+    
+    Since 41 lists
+
+[33mcommit dbc2ab4847953e071b251e6b33078fe4e1b04506[m[33m ([m[1;31morigin/since-41-lists[m[33m)[m
+Author: Germán LARCHER <german.larcher@naranja.com>
+Date:   Thu Nov 10 14:58:40 2022 -0300
+
+    until class 44 - customized error and POM best practices
+
+[33mcommit 8068bd468dd4e621880f1ca450057eccd40a3c43[m
+Author: Germán LARCHER <german.larcher@naranja.com>
+Date:   Thu Nov 10 11:21:45 2022 -0300
+
+    class 41 - lists
+
+[33mcommit eef8c23b0bd2e4e0066433998a4edd62ef305893[m
+Merge: b997ecf ed02d92
+Author: GERMAN LARCHER <52580148+german1582@users.noreply.github.com>
+Date:   Thu Nov 10 08:29:20 2022 -0300
+
+    Merge pull request #1 from german1582/since-29-actions-class
+    
+    Since 29 actions class
+
+[33mcommit ed02d9240ecc15834cf5e65b45614f5f3029eb2c[m[33m ([m[1;31morigin/since-29-actions-class[m[33m)[m
+Author: Germán LARCHER <german.larcher@naranja.com>
+Date:   Thu Nov 10 08:20:09 2022 -0300
+
+    class 40-AssertTrue and AssertFalse
+
+[33mcommit 03bb4ca0ae43394b327401fd9b32de198003e1f8[m
+Author: Germán LARCHER <german.larcher@naranja.com>
+Date:   Wed Nov 9 13:01:15 2022 -0300
+
+    class 34 - iframe and alerts
+
+[33mcommit f09ba52444bfd8f9d2c18bb03b989f2d0d33acc7[m
+Author: Germán LARCHER <german.larcher@naranja.com>
+Date:   Wed Nov 9 11:30:07 2022 -0300
+
+    class 30 - grillas estaticas
+
+[33mcommit a7aa6fe9fee3d98f0378bafe7124c8b61a46be1b[m
+Author: Germán LARCHER <german.larcher@naranja.com>
+Date:   Tue Nov 8 15:48:01 2022 -0300
+
+    class 29 - actions
+
+[33mcommit b997ecfafe4e3c678c5aec5d17a8bddc39bd5d5e[m
+Author: Germán LARCHER <german.larcher@naranja.com>
+Date:   Tue Nov 8 14:49:08 2022 -0300
+
+    basic project of Selenium with Java and Cucumber
